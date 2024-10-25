@@ -3,12 +3,12 @@
 $name = htmlspecialchars($_POST['name']);
 $email = htmlspecialchars($_POST['email']);
 $feedback = htmlspecialchars($_POST['feedback']);
-$rating = intval($_POST['rating']);  // Ensure rating is an integer
+$rating = intval($_POST['rating']);  
 
 // Database connection credentials
 $servername = "localhost";
-$username = "root"; // Replace with your database username
-$password = ""; // Replace with your database password
+$username = "root"; 
+$password = ""; 
 $dbname = "campaign_feedback";
 
 // Establish a connection to the database
