@@ -8,7 +8,6 @@ This project is a simple feedback form built with PHP, HTML, CSS, and JavaScript
 - **Data Storage**: Saves user feedback in a MySQL database.
 - **Data Display**: Displays feedback records in a paginated HTML table for easy navigation.
 - **Error Handling**: Handles errors for database connection issues or data insertion failures.
-- **Navigation**: Provides options to go back to the feedback form or quit after submitting feedback.
 
 ## Technologies Used
 
